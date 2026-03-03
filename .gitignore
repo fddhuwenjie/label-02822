@@ -1,0 +1,57 @@
+# ========== 依赖（递归覆盖所有子项目）==========
+**/node_modules/
+**/.npm
+**/.yarn
+**/.pnpm
+**/pnpm-lock.yaml
+**/yarn.lock
+
+# ========== 构建产物 ==========
+**/dist/
+**/build/
+**/.nuxt/
+**/.output/
+**/.vite/
+
+# ========== 环境变量 ==========
+**/.env
+**/.env.local
+**/.env.*.local
+
+# ========== IDE ==========
+**/.idea/
+**/.vscode/
+**/.cursor/
+*.swp
+*.swo
+*~
+
+# ========== 系统文件 ==========
+**/.DS_Store
+**/Thumbs.db
+
+# ========== 日志与临时 ==========
+**/*.log
+**/*.tmp
+**/*.temp
+**/.docker/
+
+# ========== Python ==========
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/.venv/
+**/env/
+**/*.egg-info/
+**/.eggs/
+
+# ========== 小程序 ==========
+**/miniprogram_npm/
+
+# ========== 轨迹文件夹 ==========
+轨迹/
+.trajectory/
+trajectory/
+
+# ========== 后端数据（仅根目录）==========
+/data/
