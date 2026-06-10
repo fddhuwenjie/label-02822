@@ -1,0 +1,101 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "name": "Python入门",
+      "type": "课件",
+      "teacher": "张老师",
+      "status": "已发布",
+      "downloads": 1250,
+      "health": 92,
+      "grade": "八年级",
+      "classes": 45
+    },
+    {
+      "id": 2,
+      "name": "Excel技巧",
+      "type": "视频",
+      "teacher": "李老师",
+      "status": "待审核",
+      "downloads": 980,
+      "health": 85,
+      "grade": "七年级",
+      "classes": 38
+    },
+    {
+      "id": 3,
+      "name": "网络安全",
+      "type": "题库",
+      "teacher": "王老师",
+      "status": "已发布",
+      "downloads": 756,
+      "health": 78,
+      "grade": "九年级",
+      "classes": 32
+    }
+  ],
+  "classifications": [
+    {
+      "id": 1,
+      "label": "课件",
+      "parent_id": 0,
+      "children": [
+        {
+          "id": 11,
+          "label": "PPT"
+        },
+        {
+          "id": 12,
+          "label": "Word"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "视频",
+      "parent_id": 0,
+      "children": [
+        {
+          "id": 21,
+          "label": "MP4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "题库",
+      "parent_id": 0
+    },
+    {
+      "id": 4,
+      "label": "工具",
+      "parent_id": 0
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "user": "admin",
+      "action": "登录",
+      "module": "系统",
+      "detail": "登录成功",
+      "time": "2026-06-10T15:26:34.210Z"
+    },
+    {
+      "id": 1781105308948,
+      "user": "admin",
+      "action": "登录",
+      "module": "系统",
+      "detail": "登录成功",
+      "time": "2026-06-10T15:28:28.948Z"
+    }
+  ]
+}
